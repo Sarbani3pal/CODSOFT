@@ -1,0 +1,674 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/408/387/715/dark-3d-red-shards-wallpaper-thumb.jpg");
+    color: #fff;
+}
+.text{
+    padding-right: 2px;
+    text-align: left;
+}
+
+.para1{
+    /* border: 1px solid gray; */
+    margin-bottom: -190px;
+
+}
+
+
+
+
+
+
+
+.contain {
+   position: relative; 
+   padding-right: 99px;
+   padding-left:180px;
+   left: 150px;
+   top: 59px;
+    color: white;
+  }
+
+.centered {
+    /* position: absolute; */
+     top: 110%; 
+    left: 180%;
+    transform: translate(150px);
+    transform: translate(-40%, -70%);
+  }
+
+
+
+.rotate_image {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+    padding-top: 200px;
+
+}
+
+.rotate_image1 {
+    /* -webkit-transform: rotate(300deg);
+    -moz-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    transform: rotate(300deg); */
+
+    height: 292px;
+    top: 1188px;
+    border:17px;
+    padding-right: 92px;
+    
+    
+
+}
+
+/* .rotate_image4 { */
+    /* -webkit-transform: rotate(300deg);
+    -moz-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    transform: rotate(300deg); */
+    
+    /* height: 192px;
+    top: 119px;
+    position:relative;
+    padding-right:92px;
+    left:1036px; */
+    
+    /* -o-transform: rotate(300deg); */
+    /* transform: translate(10px);
+    transform: translate(-40%, -70%);
+    z-index:17; */
+/* } */
+
+.purple-to-gold h1 {
+    background-image: linear-gradient(
+      to right in var(--colorspace), 
+      rgb(164, 11, 98), gold
+    );
+    border-radius: 10px;
+  }
+  .purple-to-goldd h1 {
+    background-image: linear-gradient(
+      to left in var(--colorspace), 
+      rgb(245, 13, 203), gold
+    );
+    border-radius: 10px;
+  }
+  
+  .purple-to-golld h1 {
+    background-image: linear-gradient(
+      to right in var(--colorspace), 
+      rgb(11, 164, 44), gold
+    );
+    border-radius: 10px;
+  }
+
+  .purple-to-golldd h1 {
+    background-image: linear-gradient(
+      to right in var(--colorspace), 
+      rgb(50, 11, 208), gold
+    );
+    border-radius: 50px;
+  }
+  h1:nth-of-type(2) { --colorspace: srgb-linear }
+  h1:nth-of-type(3) { --colorspace: lab }
+  h1:nth-of-type(4) { --colorspace: oklab }
+  h1:nth-of-type(5) { --colorspace: lch }
+  h1:nth-of-type(2) { --colorspace: oklch }
+  h1:nth-of-type(7) { --colorspace: hsl }
+  h1:nth-of-type(8) { --colorspace: hwb }
+  h1:nth-of-type(9) { --colorspace: xyz }
+  h1:nth-of-type(10) { --colorspace: xyz-d50 }
+  h1:nth-of-type(11) { --colorspace: xyz-d65 }
+
+.icons{
+color:#ce1414;
+}
+i{
+    text-shadow:6px 10px 18px rgb(187, 115, 21);
+}
+im{
+    text-shadow:6px 7px 6px rgb(4, 99, 19);
+}
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
+  
+  
+  
+  /* For demonstration purposes only: */
+
+
+  * {box-sizing:border-box}
+
+  /* Container for skill bars */
+  .container1 {
+    width: 100%; /* Full width */
+    background-color: #0a0707; /* Grey background */
+    
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 85%; background-color: #f44336;} /* Red */
+  .Java {width: 90%; background-color: #808080;} /* Dark Grey */
+  .Python {width: 75%; background-color: #a758db;} /* Dark Grey */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 10px 10%;
+    }
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header-text {
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.header-text h1 {
+    font-size: 40px;
+    margin-top:-20px;
+
+}
+
+.header-text h1 span {
+    color: #ff004f;
+}
+
+/* ----------ABOUT---------- */
+#about {
+    padding: 80px 0px;
+    color: #ababab;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1 {
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-3 {
+    flex-basis: 20%;
+}
+
+.about-col-3 img {
+    
+    border-width: 2px 4px;
+    border-radius: 1px 40px;
+    border:dotted;
+}
+
+.about-col-2 {
+    flex-basis: 60%;
+}
+
+.sub-title {
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    padding-left:119px;
+}
+
+.tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+/* .tab-links:hover::after{
+width: 100%;
+} */
+.tab-links.active-link::after {
+    width: 50%;
+}
+
+.tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span {
+    color: #b54768;
+    font-size: 14px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+/* ----------SERVICES---------- */
+#services {
+    padding: 30px 0;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.services-list div {
+    background: #282829;
+    padding: 40px;
+    font-size: 15px;
+    line-height: 30 px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div i {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.services-list div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.services-list div:hover {
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+
+/* ----------PORTFOLIO---------- */
+#portfolio {
+    padding: 50px 0;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: #ff004f;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.5s;
+}
+
+.layer h2 {
+    margin-bottom: 30px;
+}
+
+.layer a {
+    margin-top: 30px;
+    color: #080808;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.75s;
+}
+
+.btn:hover {
+    background: #ff004f;
+}
+
+/* ----------CONTACT---------- */
+.contact-left {
+    flex-basis: 35%;
+}
+
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+}
+
+.contact-left p i {
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: color 0.5s, transform 0.5s;
+}
+
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn.btn2 {
+    display: inline-block
+}
+
+.btn.btn3 {
+    background: #080808;
+    margin-top: 30px;
+    transition: background 0.5;
+
+}
+
+.btn.btn3:hover {
+    background: #ff004f;
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright i {
+    color: #ff004f;
+    transition: color 0.5s;
+}
+
+.copyright i:hover {
+    color: #fff;
+}
+
+nav .fas {
+    display: none;
+}
+
+/* ----------CSS FOR SMALL SCREEN---------- */
+@media only screen and (max-width: 600px) {
+    #header {
+        background-image: url("logo.png");
+    }
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #b54768;
+        position: fixed;
+        top: 0;
+        width: 200;
+        right: 0;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+
+}
+
+/* ----------CSS FOR SMALL SCREEN---------- */
+@media only screen and (max-width: 600px) {
+
+    /* Adjust the header image and text size for small screens */
+    #header {
+        background-image: url("logo.png");
+    }
+
+    .header-text {
+        margin-top: 100%;
+        font-size: 16px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+    }
+
+    /* Show the navigation menu on small screens */
+    nav ul {
+        display: none;
+    }
+
+    nav .fas {
+        display: block;
+        font-size: 25px;
+    }
+
+    nav ul {
+        background: #b54768;
+        position: fixed;
+        top: 0;
+        width: 200px;
+        /* Increased the width to accommodate the menu items */
+        right: 0;
+        height: 100vh;
+        padding-top: 50px;
+        transform: translateX(200px);
+        /* Off-canvas menu, initially hidden */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+        /* Show the menu when 'show' class is applied */
+    }
+
+    nav ul li {
+        display: block;
+        margin: 25px;
+    }
+}
+    

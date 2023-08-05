@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Ladder Game</title>
+    <link rel="icon" type="images copy/x-icon" href="/images copy/icon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body >
+    <div  class="game-portion">
+    <div id="container">
+        <img class='ladder1' src="images copy/ladder.png"  alt = 'ladder.png'/>
+        <img class='ladder2' src="images copy/ladder.png"  alt = 'ladder.png'/>
+        <img class='ladder3' src="images copy/ladder.png"  alt = 'ladder.png'/>
+        <img class='ladder4' src="images copy/ladder.png"  alt = 'ladder.png'/>
+        <img class='snake1' src="images copy/snake1.png"  alt = 'snake.png'/>
+        <img class='snake2' src="images copy/snake2.png"  alt = 'snake.png'/>
+    </div>
+
+    <div id='form' class="form">
+        <div class="numofplayers">
+            <div>No. of Players</div>
+            <select name="numofplayers" id="numofplayers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+        </div>
+        <button onclick=startHandler() class="game-start">
+            START
+        </button>
+    </div>
+
+    <div id='dice-box' class="hide">
+        <div class="turn">
+            <div id='player-turn' class="gitti0"> </div>
+            TURN
+        </div>
+        <div class="row-break">
+        <button onclick=handleClick() class="dice">
+            TAP
+        </button>
+        <div class="number" id="number">
+            _
+        </div>
+        <button onclick=handleReset() class="reset">
+            Reset
+        </button>
+        </div>
+    </div>
+    <div class="copyright">
+        <p style="color:rgb(190, 50, 125)"; font-size:34px> <center><b></b>Made by Sarbani Pal</b></center></p></div>
+    </div>
+    </div>
+    <script src="index.js" ></script>
+</body>
+</html>

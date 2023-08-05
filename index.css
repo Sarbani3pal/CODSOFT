@@ -1,0 +1,325 @@
+@media screen and (max-width: 800px) {
+    .row-break{
+        flex-direction: column;
+        max-height: 15rem;
+    }
+    .dice-box{
+        /* flex-direction: column; */
+        max-height: 15rem !important;
+    }
+    .dice , .number , .reset , .turn {
+        margin: 1rem !important;
+    }
+    
+    .numofplayers{
+        gap: 0rem !important;
+    }
+
+    #container{
+        display: grid;
+        grid-template-columns: repeat(10, 2rem )!important ;
+        grid-template-rows: repeat(10 , 3.5rem) !important ;
+        row-gap: .3rem ;
+        column-gap:.3rem;
+        z-index: -1;
+    }
+    .ladder1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 8rem !important;
+        margin-left: 0rem !important;
+        width: 6rem !important;
+        height: 18rem !important;
+        rotate: -5deg;
+        opacity: .9 !important;
+
+    }
+    .ladder2{
+        position: absolute;
+        z-index: 1;
+        margin-top: 13rem !important;
+        margin-left: 10.1rem !important;
+        width: 4rem !important;
+        height: 5rem !important;
+        opacity: .9 !important;
+    }
+    .ladder3{
+        position: absolute;
+        z-index: 1;
+        margin-top: 1rem !important;
+        margin-left: 8.3rem !important;
+        width: 5rem !important;
+        height: 10rem !important;
+        opacity: .9 !important;
+        rotate: 12deg !important;
+    }
+    .ladder4{
+        position: absolute;
+        z-index: 1;
+        margin-top: 20rem !important;
+        margin-left:9rem !important;
+        width: 8rem !important;
+        height: 18rem !important;
+        opacity: .8 !important;
+        rotate: -15deg !important;
+    }
+    
+    .snake1{
+        position: absolute;
+        z-index: 1;
+        margin-top: 20rem!important;
+        margin-left: 3rem!important;
+        width: 14rem!important;
+        height: 13rem!important;
+        opacity: .9!important;
+        rotate: 15deg !important;
+    }
+    .snake2{
+        position: absolute;
+        z-index: 1;
+        margin-top: 10rem !important;
+        margin-left: 8rem!important;
+        width: 22rem!important;
+        opacity: .9!important;
+        rotate: -95deg !important;
+    }
+    .copyright {
+        width: 100%;
+        text-align: center;
+        padding: 25px 0;
+        background: #c00f0f;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+    
+    .copyright i {
+        color: #ff004f;
+        transition: color 0.5s;
+    }
+    
+    .copyright i:hover {
+        color: #fff;
+    }
+    
+}
+
+body{
+    background-image: url("images copy/bg.jpg");
+    background-size:auto;
+    object-fit:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.game-portion{
+    max-width: 100vw;
+}
+.all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(55, 55, 55); 
+    height: 8rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.numofplayers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    color:white;
+    font-size: xx-large;
+}
+#numofplayers{
+    width: 5rem;
+    height: 3rem;
+    border-radius: .5rem;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.game-start{
+    width: 10rem;
+    height: 3rem;
+    border-radius: .5rem;
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+    box-shadow: 1px 4px 4px rgb(111, 111, 111);
+}
+
+.game-start:hover{
+    cursor: pointer;
+    box-shadow: 1px 2px 4px rgb(154, 154, 154);
+    background-color: rgb(154, 155, 156);
+    color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(10,4.5rem );
+    grid-template-rows: repeat(10 , 4.5rem);
+    row-gap: .3rem ;
+    column-gap:.3rem;
+    z-index: -1;
+}
+.ladder1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 11.5rem;
+    margin-left: 3rem;
+    width: 8rem;
+    height: 21rem;
+    opacity: .8;
+    rotate: -5deg;
+}
+.ladder2{
+    position: absolute;
+    z-index: 1;
+    margin-top: 17rem;
+    margin-left: 22rem;
+    width: 7rem;
+    height: 5rem;
+    opacity: .8;
+}
+.ladder3{
+    position: absolute;
+    z-index: 1;
+    margin-left: 19rem;
+    width: 8rem;
+    height: 15rem;
+    opacity: .8;
+    rotate: 22deg;
+}
+.ladder4{
+    position: absolute;
+    z-index: 1;
+    margin-top: 26rem;
+    margin-left: 24rem;
+    width: 8rem;
+    height: 21rem;
+    opacity: .8;
+    rotate: -23deg;
+}
+
+.snake1{
+    position: absolute;
+    z-index: 1;
+    margin-top: 25rem;
+    margin-left: 9rem;
+    width: 25rem;
+    height: 16rem;
+    opacity: .9;
+    rotate: 10deg;
+}
+.snake2{
+    position: absolute;
+    z-index: 1;
+    margin-top: 11.5rem;
+    margin-left: 25rem;
+    width: 30rem;
+    opacity: .9;
+    rotate: -90deg;
+}
+.item , .currentPosition{
+    background-color: rgb(55, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .2rem;
+    color: white;
+}
+
+#item1{
+    background-color: rgb(159, 159, 159);
+}
+.currentPosition{
+    background-color: rgb(206, 206, 206);
+    
+}
+.gitti1 , .gitti2 , .gitti3, .gitti0 {
+    background-color: rgb(0, 0, 152);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+.gitti1{
+    background-color: rgb(0, 255, 0);
+}
+.gitti2{
+    background-color: yellow;
+}
+.gitti3{
+    background-color: red;
+}
+
+.row-break{
+    display: flex;
+}
+.dice , .number , .reset , .turn {
+    background-color: red;
+    width: 6rem;
+    height: 6rem;
+    margin: 3rem;
+    border: none;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+}
+
+.dice:hover{
+    box-shadow: 1px 4px 4px rgb(154, 154, 154);
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+.dice-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+    box-shadow: 1px 4px 4px rgb(154, 154, 154);
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 4px 4px rgb(154, 154, 154);
+    color: black;
+}
+
+.reset:hover{
+    box-shadow: 1px 2px 4px rgb(111, 111, 111);
+    cursor: pointer;
+}
+
+.turn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 4px rgb(154, 154, 154);
+    color: black;
+}
